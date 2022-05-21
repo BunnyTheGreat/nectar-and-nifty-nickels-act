@@ -1,0 +1,42 @@
+
+
+img {
+    animation-name: blinking_lights;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height:500px;
+    width: 550px;
+   
+}
+
+@keyframes blinking_lights {
+    from {
+        box-shadow: 1px 1px 30px greenyellow;
+    }
+    to {
+        box-shadow: 1px 1px 30px red;
+    }
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 65px;
+    color: goldenrod;
+}
+
+body {
+    margin-top: 40px;
+}
+
+h3{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:35px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#profile_pic {
+    margin-top: 40;
+}
